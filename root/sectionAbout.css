@@ -1,0 +1,38 @@
+/* Salons list */
+.section-about {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.about-text {
+  display: flex;
+  align-self: flex-start;
+  flex-direction: column;
+  gap: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #616060;
+}
+
+.about-image {
+}
+
+@media only screen and (min-width: 744px) {
+  .about-text {
+    max-width: 621px;
+  }
+}
+
+@media only screen and (min-width: 1360px) {
+  .section-about {
+    flex-direction: row;
+    gap: 125px;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .section-about {
+    gap: 145px;
+  }
+}

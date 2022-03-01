@@ -1,0 +1,83 @@
+/* Salons list */
+#footer {
+  display: flex;
+  background-color: #444444;
+  flex-direction: column;
+  padding-top: 60px;
+
+  font-size: 16px;
+}
+#footer > * {
+  color: white;
+}
+#footer .logo-white {
+  max-width: 250px;
+  margin-bottom: 40px;
+}
+
+.nav-footer-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  padding-left: 0px;
+  row-gap: 30px;
+  margin-bottom: 116px;
+}
+.nav-footer-list li:first-child {
+  font-weight: 900;
+}
+.nav-footer-list li {
+  list-style: none;
+}
+
+.nav-footer-list a {
+  color: white;
+  font-size: 16px;
+}
+
+.footer-masstext {
+  font-weight: 700;
+}
+
+.nav-footer-list-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding-left: 0;
+}
+
+.nav-footer-list-info li {
+  display: flex;
+}
+
+.nav-footer-list-info li img {
+  margin-right: 10px;
+}
+.nav-footer-list-info a {
+  color: white;
+  font-size: 16px;
+}
+
+@media only screen and (min-width: 744px) {
+}
+
+@media only screen and (min-width: 1360px) {
+  #footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #footer .logo-white {
+    margin-bottom: 0;
+  }
+  .nav-footer-list {
+    flex-direction: column;
+    row-gap: 16px;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+}
