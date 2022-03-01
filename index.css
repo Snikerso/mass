@@ -1,0 +1,156 @@
+/* Header */
+.header {
+  width: 100%;
+  background-color: #fafafa;
+  height: 96px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  padding: 0px 16px;
+}
+
+/* Navigation */
+
+.logo {
+  width: 170px;
+}
+
+.nav-list {
+  display: none;
+  list-style: none;
+  gap: 60px;
+  align-items: center;
+}
+
+.nav-list-item {
+  list-style: none;
+}
+.nav-list-item a {
+  text-decoration: none;
+  color: #444444;
+  font-size: 18px;
+  font-family: "Lato";
+  font-weight: 500;
+}
+
+.nav-list-item a:hover {
+  color: var(--accent);
+}
+.nav-list-item-button {
+  background: linear-gradient(180deg, #970000 0%, #d94343 100%);
+  border-radius: 6px;
+  width: 194px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Lato;
+  font-weight: 500;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.nav-list-item-button.--baner {
+  margin-top: 35px;
+}
+
+.nav-list-item-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.hamburger {
+  position: absolute;
+  right: 16px;
+}
+.nav-list-mobile {
+  position: fixed;
+  z-index: 1000;
+  width: 100vw;
+  height: 100vh;
+  background-color: #f4f4f4;
+  left: 0px;
+  top: 0px;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 146px;
+  gap: 48px;
+}
+.nav-list-item-strefa {
+  color: var(--accent);
+  text-decoration: none;
+  list-style: none;
+
+  font-weight: 800;
+}
+.nav-list-item-strefa a {
+  font-size: 18px;
+  color: var(--accent);
+}
+
+.nav-list-mobile-button-close {
+  position: absolute;
+  top: 48px;
+  right: 16px;
+  background-color: transparent;
+  border: none;
+}
+/* Main content */
+
+main {
+  background-color: #fafafa;
+}
+
+/* Baner under header */
+
+.baner {
+  position: relative;
+  width: 100%;
+  height: 600px;
+  margin-top: 100px;
+  object-fit: cover;
+}
+.baner-image {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+}
+
+.baner-text {
+  position: absolute;
+  top: 146px;
+  padding: 16px;
+  color: white;
+  line-height: 38px;
+}
+.baner-text h2 {
+  line-height: 51px;
+  font-size: 41px;
+  font-weight: 900;
+}
+.baner-text h3 {
+  font-size: 29px;
+  font-weight: 500;
+  width: 98%;
+}
+
+.section {
+  display: flex;
+  padding-left: var(--space-left-mobile);
+  padding-right: var(--space-left-mobile);
+  padding-bottom: 100px;
+}
+
+.section-header {
+  align-self: flex-start;
+  font-size: 48px;
+  color: #444444;
+  margin-bottom: 47px;
+  font-weight: 900;
+  padding-top: 30px;
+}

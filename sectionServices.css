@@ -1,0 +1,83 @@
+/* Salons list */
+.section-services {
+  display: flex;
+  flex-direction: column;
+  background-color: #444444;
+}
+
+.section-services > * {
+  color: white;
+}
+
+.services-list-item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  max-width: 300px;
+}
+.services-list-item img {
+  width: 60px;
+}
+
+.services-list-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+  gap: 64px;
+  /* flex-direction: column; */
+}
+.services-list-wrapper h3 {
+  font-size: 20px;
+  /* flex-direction: column; */
+}
+
+.services-list-wrapper ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  list-style: "";
+  line-height: 27px;
+  padding-left: 0px;
+  /* flex-direction: column; */
+}
+
+/* 
+.weare-image {
+  margin: 0 auto;
+  margin-top: -50px;
+  margin-bottom: 50px;
+  max-width: 300px;
+}
+
+.list-characteristic {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 65px;
+  row-gap: 24px;
+  width: 100%;
+  justify-content: space-between;
+  font-size: 18px;
+  padding-left: 0px;
+  color: #616060;
+  max-width: 600px;
+}
+
+.list-characteristic li {
+  list-style: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  font-weight: 600;
+}
+.list-characteristic span {
+  font-weight: 900;
+} */
+@media only screen and (min-width: 744px) {
+}
+
+@media only screen and (min-width: 1360px) {
+}
+
+@media only screen and (min-width: 1900px) {
+}

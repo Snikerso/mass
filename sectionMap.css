@@ -1,0 +1,67 @@
+/* Salons list */
+.section-map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 114px;
+}
+.map {
+  width: 100%;
+  object-fit: contain;
+  padding: 0 10px;
+  max-width: 554px;
+  align-self: center;
+}
+
+.list-salons-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 65px;
+  row-gap: 12px;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 65px;
+}
+
+.list-salons {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  padding: 0px;
+}
+
+.list-salons li {
+  list-style: none;
+  display: flex;
+  gap: 8px;
+}
+
+.list-salons li a {
+  color: var(--accent);
+  font-size: 16px;
+  font-weight: 500;
+}
+.list-salons li a span {
+  display: block;
+}
+
+@media only screen and (min-width: 744px) {
+}
+
+@media only screen and (min-width: 1360px) {
+  .list-salons-wrapper {
+    column-gap: 110px;
+  }
+  .list-salons {
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .list-salons-wrapper {
+    column-gap: 140px;
+  }
+  .list-salons li a {
+    max-width: none;
+  }
+}
