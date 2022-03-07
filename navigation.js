@@ -1,6 +1,9 @@
 const navBurger = document.getElementsByClassName('hamburger');
 const navListMobile = document.getElementsByClassName('nav-list-mobile');
 const ButtonAplikuj = document.getElementById('button-aplikuj');
+const ButtonOpenModal = document.getElementById('button-modal');
+
+
 
 
 function onOpen(close) {
@@ -35,5 +38,14 @@ function onOpenDialog(close) {
         return;
     }
     navListMobile[0].style.display = "flex";
+}
 
+
+function onOpenModal(close) {
+    let Modal = document.getElementById('modal');
+    if(close === "close"){
+        Modal.style.display = "none";
+        return
+    }
+    Modal.style.display = "block";
 }

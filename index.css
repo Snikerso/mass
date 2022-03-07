@@ -37,8 +37,9 @@
   font-weight: 500;
 }
 
-.nav-list-item a:hover {
+.nav-list-item :hover {
   color: var(--accent);
+  font-weight: bold;
 }
 .nav-list-item-button {
   background: linear-gradient(180deg, #970000 0%, #d94343 100%);
@@ -52,6 +53,12 @@
   font-weight: 500;
   font-size: 18px;
   cursor: pointer;
+  color: white;
+  border: none;
+}
+
+.nav-list-item-button:hover {
+  background: linear-gradient(180deg, #d30000 0%, #d94343 100%);
 }
 
 .nav-list-item-button.--baner {
@@ -70,7 +77,7 @@
 .nav-list-mobile {
   position: fixed;
   z-index: 1000;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   background-color: #f4f4f4;
   left: 0px;
@@ -110,7 +117,6 @@ main {
 
 .baner {
   position: relative;
-  width: 100%;
   height: 600px;
   margin-top: 100px;
   object-fit: cover;
@@ -130,7 +136,7 @@ main {
 }
 .baner-text h2 {
   line-height: 51px;
-  font-size: 41px;
+  font-size: 40px;
   font-weight: 900;
 }
 .baner-text h3 {
@@ -153,4 +159,32 @@ main {
   margin-bottom: 47px;
   font-weight: 900;
   padding-top: 30px;
+}
+
+#modal {
+  display: none;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  z-index: 10001;
+  width: 100%;
+  height: 100%;
+}
+
+#modal-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  left: 0px;
+  z-index: 10000;
+  width: 100%;
+  height: 100%;
+  background: rgba(6, 6, 6, 0.5);
+}
+
+#close-modal {
+  position: absolute;
+  right: 30px;
+  top: 10px;
 }

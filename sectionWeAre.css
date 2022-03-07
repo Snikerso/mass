@@ -37,17 +37,26 @@
   font-weight: 900;
 }
 @media only screen and (min-width: 744px) {
+  .weare-image {
+    margin-top: -70px;
+    max-width: 420px;
+    width: 420px;
+  }
+  .list-characteristic {
+    row-gap: 50px;
+  }
 }
 
 @media only screen and (min-width: 1360px) {
   .section-weare {
     padding-top: 80px;
     flex-direction: row;
+    justify-content: space-between;
   }
   .weare-image {
+    margin: 0px;
     margin-top: 0px;
-    max-width: 800px;
-    min-width: 400px;
+    max-width: 566px;
     order: 1;
   }
 }

@@ -6,7 +6,7 @@
     right: 20px;
   }
   .baner-text {
-    padding-left: 108px;
+    padding-left: var(--space-left-tablet);
   }
   .baner-text h2 {
     line-height: 61px;
@@ -15,7 +15,7 @@
   .baner-text h3 {
     font-size: 33px;
     line-height: 43px;
-    max-width: 58%;
+    max-width: 60%;
   }
   .section {
     padding-left: var(--space-left-tablet);
@@ -43,7 +43,7 @@
   }
 
   .baner-text {
-    padding-left: 80px;
+    padding-left: var(--space-left-desktop);
     max-width: 90%;
   }
   .baner-text h2 {
@@ -53,6 +53,7 @@
   .baner-text h3 {
     font-size: 60.18px;
     line-height: 65.18px;
+    max-width: 100%;
   }
 
   .section {
