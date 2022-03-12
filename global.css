@@ -5,11 +5,6 @@
   margin: 0;
 }
 
-/* @font-face {
-  font-family: 'Lato';
-  src: local('MontserratAlternates'),
-    url('fonts/MontserratAlternates-ExtraBold.ttf') format('truetype');
-} */
 @font-face {
   font-family: Lato;
   font-weight: 200;
@@ -76,6 +71,7 @@
 
 :root {
   --accent: rgba(151, 0, 0, 1);
+  --accent-hover: rgb(206, 14, 14);
   --space-left-mobile: 16px;
   --space-left-tablet: 22px;
   --space-left-desktop: 76px;

@@ -39,7 +39,6 @@
 
 .nav-list-item :hover {
   color: var(--accent);
-  font-weight: bold;
 }
 .nav-list-item-button {
   background: linear-gradient(180deg, #970000 0%, #d94343 100%);

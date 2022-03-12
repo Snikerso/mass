@@ -43,7 +43,7 @@
   font-weight: 500;
 }
 .list-salons li a:hover {
-  font-weight: bold;
+  color: var(--accent-hover);
 }
 .list-salons li a span {
   display: block;
