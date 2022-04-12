@@ -70,14 +70,12 @@
 }
 
 :root {
-  --accent: rgba(151, 0, 0, 1);
+  --accent: #970000;
   --accent-hover: rgb(206, 14, 14);
   --space-left-mobile: 16px;
   --space-left-tablet: 22px;
   --space-left-desktop: 76px;
   --space-left-desktop-large: 204px;
-
-  /* --space-left-tablet: 22px; */
 }
 
 html {

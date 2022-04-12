@@ -17,7 +17,8 @@
   display: flex;
   flex-wrap: wrap;
   column-gap: 65px;
-  row-gap: 12px;
+  /* row-gap: 12px; */
+
   width: 100%;
   justify-content: space-between;
   margin-top: 65px;
@@ -34,7 +35,8 @@
 .list-salons li {
   list-style: none;
   display: flex;
-  gap: 8px;
+  column-gap: 8px;
+  margin-bottom: 15px;
 }
 
 .list-salons li a {
