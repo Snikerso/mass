@@ -36,6 +36,12 @@
 .list-characteristic span {
   font-weight: 900;
 }
+.list-characteristic a {
+  color: black;
+}
+.list-characteristic a:hover {
+  color: var(--accent);
+}
 @media only screen and (min-width: 744px) {
   .weare-image {
     margin-top: -70px;
