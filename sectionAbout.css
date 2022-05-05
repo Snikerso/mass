@@ -2,6 +2,7 @@
 .section-about {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   margin-bottom: 200px;
 }
 
@@ -39,6 +40,7 @@
   }
   .about-text-with-header {
     margin-top: -100px;
+    margin-left: -100px;
   }
   .about-image {
     margin-left: 0px;
@@ -49,6 +51,9 @@
 }
 
 @media only screen and (min-width: 1900px) {
+  .about-text-with-header {
+    margin-right: 250px;
+  }
   .section-about {
     margin-left: 0px;
     height: 700px;
